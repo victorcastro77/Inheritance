@@ -17,10 +17,6 @@ public class People {
     public int getAge(){
         return age;
     }
-    public void ageTenYears() {
-        age += 10;
-        health -= 10;
-    }
     public void workout() {
         strength += 20;
     }
