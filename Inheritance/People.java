@@ -7,17 +7,25 @@ public class People {
     public int strength;
     
     public People() {
-        age = 0;
         health = 100;
         strength = 0;
     }
     public void eat() {
         health += 10;
     }
-    public int getAge(){
-        return age;
-    }
     public void workout() {
         strength += 20;
     }
+    public void getAgeCategory() {
+        if (isKid = true) {
+            System.out.println("I am a kid.");
+        }
+        if (isAdult = true) {
+            System.out.println("I am an adult.");
+        }
+        if (isElder = true) {
+            System.out.println("I am an elder.");
+        }
+    }
+    
 }
